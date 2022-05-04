@@ -1,0 +1,33 @@
+body{ 
+    background-color: white; 
+    background-size: 100% ; 
+} 
+.topnav { overflow: hidden;
+     background-color: orange; 
+    } 
+.topnav a { 
+    float: left;
+     color: #f2f2f2; 
+     text-align: center; 
+     padding: 7px 16px; 
+     text-decoration: none;
+      font-size: 17px;
+     } 
+.topnav a:hover {
+     background-color: #FEFEFE; 
+     color: black;
+     } 
+.topnav a.active { 
+    background-color: #04AA6D; 
+    color: white; 
+} 
+.text{
+     text-align: center;
+      font-family: Raleway-Bold; 
+    } 
+.img { 
+    float: left;
+     width: 100px;
+      height:50px; 
+      margin-right:10px; 
+    }
