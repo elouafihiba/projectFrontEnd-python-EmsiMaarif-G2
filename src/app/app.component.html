@@ -1,0 +1,16 @@
+<app-header></app-header>
+
+<mat-drawer-container class="example-container">
+    <mat-drawer mode="side" opened>
+
+        <mat-selection-list #shoes [multiple]="false">
+            <mat-list-option *ngFor="let element of sideList" [routerLink]="element.url">
+                <mat-icon>{{element.icon}} </mat-icon> {{element.nom}}
+            </mat-list-option>
+        </mat-selection-list>
+
+    </mat-drawer>
+    <mat-drawer-content>
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>

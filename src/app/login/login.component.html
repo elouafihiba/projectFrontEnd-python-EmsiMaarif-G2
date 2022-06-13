@@ -1,0 +1,66 @@
+<mat-card class="card1">
+
+    <mat-tab-group>
+        <mat-tab label="Login">
+            <form [formGroup]="loginForm" class="example-form1" (ngSubmit)="onSubmit1()">
+                <mat-card fxLayout="column" fxLayoutAlign="space-around stretch">
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <input matInput placeholder="Login" formControlName="login">
+                    </mat-form-field>
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <input type="password" matInput placeholder="Password" formControlName="password">
+                    </mat-form-field>
+                    <button mat-stroked-button>Login</button>
+                </mat-card>
+            </form>
+
+        </mat-tab>
+        <mat-tab label="S'inscrire">
+
+            <form [formGroup]="inscriptionForm" class="example-form2" (ngSubmit)="onSubmit2()">
+                <mat-card fxLayout="column" fxLayoutAlign="space-around stretch" fxLayoutAlign="space-around center">
+
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <input matInput placeholder="User Name" formControlName="UserName">
+                    </mat-form-field>
+                    <div class="requiredline" *ngIf="inscriptionForm.controls['UserName'].invalid">this is required!
+                    </div>
+
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <input matInput placeholder="Full Name" formControlName="FullName">
+                    </mat-form-field>
+                    <div class="requiredline" *ngIf="inscriptionForm.controls['FullName'].invalid">this is required!
+                    </div>
+
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <input type="email" matInput placeholder="email" formControlName="Email">
+                    </mat-form-field>
+                    <div class="requiredline" *ngIf="inscriptionForm.controls['UserName'].invalid">this is required!
+                    </div>
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <input type="password" matInput placeholder="password" formControlName="Password">
+                    </mat-form-field>
+                    <div class="requiredline" *ngIf="inscriptionForm.controls['Password'].invalid">this is
+                        required!</div>
+
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <input type="password" matInput placeholder="Confirm password" formControlName="Password">
+                    </mat-form-field>
+                    <div class="requiredline" *ngIf="inscriptionForm.controls['Password'].invalid">this is
+                        required!</div>
+                    <mat-checkbox class="example-full-width" color="primary">I
+                        have read and
+                        agree to the terms
+                    </mat-checkbox>
+                    <div fxlayout="row" fxLayoutGap="20px">
+                        <button type="reset" mat-stroked-button>Reset</button>
+                        <button type="submit" [disabled]="inscriptionForm.invalid" mat-stroked-button>Submit</button>
+                    </div>
+
+                </mat-card>
+            </form>
+
+        </mat-tab>
+    </mat-tab-group>
+
+</mat-card>
