@@ -1,1 +1,40 @@
-<p>contact-us works!</p>
+<h2>Get in touch</h2>
+
+<mat-card class="back" fxLayout="row" fxLayoutAlign="space-around center">
+    
+            <mat-card fxLayout="column" fxLayoutAlign="space-around stretch" fxLayoutAlign="space-around center">
+        
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <input matInput placeholder="Full Name" formControlName="FullName" ngModel="name">
+                </mat-form-field>
+                
+        
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <input type="email" matInput placeholder="email" formControlName="Email" ngModel="email">
+                </mat-form-field>
+                
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <input type="textarea" matInput placeholder="write your message" formControlName="message" ngModel="message">
+                </mat-form-field>
+                
+                
+                <div fxlayout="row" fxLayoutGap="20px">
+                    <button type="submit" mat-stroked-button>Send</button>
+                </div>
+        
+            </mat-card>
+            
+            <mat-card  fxLayout="column" fxLayoutAlign="space-around stretch" fxLayoutAlign="space-around center">
+                <h3>Phone : +2125226-46600</h3> 
+                <h3>Email : Adopt-Me@gmail.com</h3>
+                <h3>Location : 380 Bd Brahim Roudani, Casablanca</h3>
+        
+            </mat-card>
+            
+</mat-card>
+
+
+
+
+
+

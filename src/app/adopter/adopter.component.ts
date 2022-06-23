@@ -26,7 +26,7 @@ export class AdopterComponent implements OnInit {
 
   ngOnInit(): void {
     console.log("from ngONinit");
-    this.http.get("http://192.168.1.26:8000/api/pets?format=json").subscribe((res: any) => {
+    this.http.get("http://127.0.0.1:8000/api/pets?format=json").subscribe((res: any) => {
       this.listPets = res
       console.log("from API", this.listPets);
 
@@ -35,7 +35,7 @@ export class AdopterComponent implements OnInit {
   }
   onSubmit() {
     console.log("clicked", this.AddPetForm.value)
-    this.http.post("http://192.168.1.26:8000/api/pets?format=json", this.AddPetForm.value).subscribe((res: any) => {
+    this.http.post("http://127.0.0.1:8000/api/pets?format=json", this.AddPetForm.value).subscribe((res: any) => {
       this.listPets.push(res)
       console.log("from API", this.listPets)
 
