@@ -1,6 +1,11 @@
 <h2>Get in touch</h2>
 
 <mat-card class="back" fxLayout="row" fxLayoutAlign="space-around center">
+
+    <div class="image" fxFlex="50">
+        <img src="../../assets/cat.png" alt=""
+            >
+    </div>
     
             <mat-card fxLayout="column" fxLayoutAlign="space-around stretch" fxLayoutAlign="space-around center">
         
@@ -14,8 +19,9 @@
                 </mat-form-field>
                 
                 <mat-form-field class="example-full-width" appearance="fill">
-                    <input type="textarea" matInput placeholder="write your message" formControlName="message" ngModel="message">
-                </mat-form-field>
+                    <textarea  type="text" matInput placeholder="write your message here" formControlName="message" ngModel="message">
+                    </textarea>
+                    </mat-form-field>
                 
                 
                 <div fxlayout="row" fxLayoutGap="20px">
@@ -23,18 +29,19 @@
                 </div>
         
             </mat-card>
-            
-            <mat-card  fxLayout="column" fxLayoutAlign="space-around stretch" fxLayoutAlign="space-around center">
-                <h3>Phone : +2125226-46600</h3> 
-                <h3>Email : Adopt-Me@gmail.com</h3>
-                <h3>Location : 380 Bd Brahim Roudani, Casablanca</h3>
+
         
-            </mat-card>
+        
             
 </mat-card>
 
 
+<div classe="cordonnee" fxLayout="row" fxLayoutAlign="space-around stretch" fxLayoutAlign="space-around center">
+    <h3>Phone : +2125226-46600</h3> 
+    <h3>Email : Adopt-Me@gmail.com</h3>
+    <h3>Location : 380 Bd Brahim Roudani, Casablanca</h3>
 
+</div>
 
 
 
