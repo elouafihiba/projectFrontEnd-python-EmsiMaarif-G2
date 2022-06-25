@@ -4,12 +4,16 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 
 const lp = [
-  
+
   {nom: 'a', prenom: 'Hydrogen', age: '1 ans', image:'1.jpg'},
+  {nom: 'h', prenom: 'Nitrogen', age: '3mois', image: '19.jpg'},
+  {nom: 'h', prenom: 'Nitrogen', age: '3mois', image: '20.jpg'},
   {nom: 'b', prenom: 'Helium', age: '4 ans', image: '2.jpg'},
   {nom: 'c', prenom: 'Lithium', age: '2 ans', image: '3.jpg'},
   {nom: 'd', prenom: 'Beryllium', age: '2 mois', image: '4.webp'},
+  {nom: 'h', prenom: 'Nitrogen', age: '3mois', image: '18.jpg'},
   {nom: 'f', prenom: 'Boron', age: '9 mois', image: '5.jpg'},
+  {nom: 'h', prenom: 'Nitrogen', age: '3mois', image: '17.jpg'},
   {nom: 'j', prenom: 'Carbon', age: '6 mois', image: '6.jpg'},
   {nom: 'h', prenom: 'Nitrogen', age: '3mois', image: '7.jpg'},
   {nom: 'h', prenom: 'Nitrogen', age: '3mois', image: '8.webp'},
@@ -21,10 +25,6 @@ const lp = [
   {nom: 'h', prenom: 'Nitrogen', age: '3mois', image: '14.jpg'},
   {nom: 'h', prenom: 'Nitrogen', age: '3mois', image: '15.jpg'},
   {nom: 'h', prenom: 'Nitrogen', age: '3mois', image: '16.jpg'},
-  {nom: 'h', prenom: 'Nitrogen', age: '3mois', image: '17.jpg'},
-  {nom: 'h', prenom: 'Nitrogen', age: '3mois', image: '18.jpg'},
-  {nom: 'h', prenom: 'Nitrogen', age: '3mois', image: '19.jpg'},
-  {nom: 'h', prenom: 'Nitrogen', age: '3mois', image: '20.jpg'},
 
 ]
 
