@@ -17,11 +17,11 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: "adopter",
+    path: "adopt",
     component: AdopterComponent
   },
   {
-    path: "donner",
+    path: "whyadopting",
     component: DonnerComponent
   },
   {

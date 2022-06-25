@@ -15,14 +15,14 @@ export class AppComponent {
       
     },
     {
-      nom: "Adopter",
-      url: "adopter",
+      nom: "Adopt",
+      url: "adopt",
       
     },
 
     {
-      nom: "Donner",
-      url: "donner",
+      nom: "Why Adopting ?",
+      url: "whyadopting",
       icon: "",
     },
     {
