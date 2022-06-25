@@ -12,12 +12,12 @@ export class AppComponent {
     {
       nom: "Home",
       url: "dashboard",
-      icon: "home",
+      
     },
     {
       nom: "Adopter",
       url: "adopter",
-      icon: "save_alt",
+      
     },
 
     {

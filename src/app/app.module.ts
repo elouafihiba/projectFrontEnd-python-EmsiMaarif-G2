@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { ContactUsComponent } from './ContactUs/contact-us/contact-us.component';
 import { LoginComponent } from './login/login.component';
 import { AdopterComponent } from './adopter/adopter.component';
-import { DonnerComponent } from './donner/donner.component';
+import { DonnerComponent } from './whyAdopting/donner.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';

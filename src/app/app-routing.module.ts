@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AdopterComponent } from './adopter/adopter.component';
 import { ContactUsComponent } from './ContactUs/contact-us/contact-us.component';
-import { DonnerComponent } from './donner/donner.component';
+import { DonnerComponent } from './whyAdopting/donner.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 
